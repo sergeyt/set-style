@@ -1,6 +1,6 @@
 {
   "name": "set-style",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Set CSS style utility extracted from preact",
   "repository": "https://github.com/sergeyt/set-style",
   "license": "MIT",
