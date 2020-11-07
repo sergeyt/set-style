@@ -1,0 +1,26 @@
+{
+  "name": "set-style",
+  "version": "0.0.0",
+  "description": "Set CSS style utility extracted from preact",
+  "repository": "https://github.com/sergeyt/set-style",
+  "license": "MIT",
+  "author": "Sergey Todyshev <stodyshev@gmail.com>",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsdx build",
+    "lint": "tsdx lint",
+    "test": "tsdx test"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.165",
+    "lodash": "^4.17.20",
+    "memoize-one": "^5.1.1"
+  },
+  "devDependencies": {
+    "tsdx": "^0.14.1"
+  }
+}
