@@ -12,6 +12,7 @@
   ],
   "scripts": {
     "build": "tsdx build",
+    "ci": "yarn lint && yarn test && yarn build",
     "lint": "tsdx lint",
     "test": "tsdx test"
   },
